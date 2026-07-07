@@ -1,3 +1,3 @@
 FROM almalinux:9
-cd /tmp
+RUN cd /tmp
 RUN echo "$PWD"
